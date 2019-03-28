@@ -94,7 +94,7 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="4RD-6e-4Yr"/>
+                                    <segue destination="bRa-Qm-g8j" kind="unwind" unwindAction="unwind:" id="k0t-cN-EAA"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -113,6 +113,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rvg-yo-EEa" sceneMemberID="firstResponder"/>
+                <exit id="bRa-Qm-g8j" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="142" y="-609"/>
         </scene>

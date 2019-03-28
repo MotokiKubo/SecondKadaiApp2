@@ -22,6 +22,8 @@ class ViewController: UIViewController {
         resultViewController.nameString = inputNameTextFiled.text!
     }
     
+    @IBAction func unwind(_ segue: UIStoryboardSegue){
+    }
     
 }
 
